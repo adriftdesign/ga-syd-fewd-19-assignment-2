@@ -11,6 +11,8 @@ Developer @GA in NYC
 /*******************************************/
 
 /* Box Model Hack */
+
+
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -50,8 +52,8 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+    /* background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157); */
+    background-size: 1200px;
     background-color: #033048;
 }
 
@@ -62,7 +64,6 @@ body {
 
 /* Center the container */
 #container {
-    width: 100%;
     margin: auto;
     height: 500px;
     justify-content: center;
@@ -70,80 +71,141 @@ body {
 
 h1 {
     display: inline-block;
-    padding: 50px;
+    position: absolute;
+    padding: 100px;
     color: white;
     font-weight: 800;
     font-size: 24px;
 }
 
 h2 {
+    position: absolute;
+    top: 50%;
     color: white;
-    font-weight: 600;
-    font-size: 20px;
     text-align: center;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 h3 {
     color: #121212;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 h4 {
     display: inline-block;
-    padding: 50px;
+    padding: 100px;
     color: #f9e42e;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 32px;
 }
 
-.quote {
+.block-quote {
+    display: inline-block;
     color: white;
-    text-align: center;
+    font-weight: 300;
+    font-style: italic;
 }
 
 header {
 
 }
 
-ol {
-    margin-left: 75px;
+ul {
+    margin-left: 30px;
     font: light;
     color: 121212;
-}
-
-.sign-up {
-    background: #f9e42e;
-    color: white;
-    text-align: center;
-    font-weight: 800;
-    font-size: 12px;
-    border: 5px;
 }
 
 .benifits {
     background-size: cover;
     background-color: #f0efef;
-    padding: 50px;
+    width: 1200px;
+    padding: 100px;
+    padding-right: 400px;
+    font-size: 24px;
+    justify-content: center;
+}
+
+input {
+    padding: 15px;
+}
+
+code {
+    border: 2px green;
+    padding: 2px;
+    background-color: white;    
+    color: black;
+}
+
+.get-it-now {
+    /* background: #f9e42e; */
+    color: white;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 12px;    
+    border: 5px;
+    height: 50px;
+    width: 1200px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+    
+
+.sign-up {
+    background: #f9e42e;
+    color: white;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 12px;    
+    border: 5px;
+    height: 50px;
+    width: 1200px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 dark blue {
     background-color: #033048;
 }
 
+span {
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+}
 
 footer {
     background: #121212;
+    width: 1200px;
     color: white;
     font-weight: 600;
     font-size: 9px;
     text-align: center;
+    justify-content: center;
 }
-
+*/
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+/* trying to get the text over the image */
 
+/* http://codepen.io/Paulie-D/pen/fnIxt/ */
+/* .container {
+  width:960px;
+  margin:1rem auto;
+  position: relative;
+}
 
+.text {
+  background:rgba(255,255,255,0.5);
+  position: absolute;
+  top:50%;
+  left:0;
+  padding:1rem;
+  transform:translateY(-50%);
+  
+}
 
-
+*/
