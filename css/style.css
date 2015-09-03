@@ -147,7 +147,7 @@ code {
 }
 
 .get-it-now {
-    /* background: #f9e42e; */
+    background: #f9e42e;
     position: absolute;
     color: white;
     justify-content: center;
@@ -217,7 +217,7 @@ footer {
     justify-content: center;
     padding: 10px;
 }
-*/
+/*
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
