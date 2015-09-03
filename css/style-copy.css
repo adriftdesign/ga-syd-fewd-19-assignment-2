@@ -95,7 +95,7 @@ h3 {
 
 h4 {
     display: inline-block;
-    padding: 30px;
+    padding: 100px;
     color: #f9e42e;
     font-weight: 800;
     font-size: 32px;
@@ -106,15 +106,8 @@ h4 {
     color: white;
     font-weight: 300;
     font-style: italic;
-    padding: 100px;
 }
- 
-quote {
-    color: white;
-    font-weight: 300;
-    font-style: italic;
-}
-    
+
 header {
 
 }
@@ -148,7 +141,6 @@ code {
 
 .get-it-now {
     /* background: #f9e42e; */
-    position: absolute;
     color: white;
     justify-content: center;
     font-weight: 800;
@@ -167,16 +159,15 @@ code {
     text-align: center;
 }
 
-a .sign-up {
-    display: inline-block;
-    background: #033048;
+.sign-up {
+    background: #f9e42e;
     color: white;
     justify-content: center;
     font-weight: 800;
     font-size: 12px;    
     border: 5px;
     height: 50px;
-    width: 250px;
+    width: 1200px;
     padding-bottom: 25px;
     padding-top: 25px;
 }
@@ -191,23 +182,7 @@ span {
     font-weight: 300;
 }
 
-hyperlink {
-    display: block;
-}
-
-.footer {
-    display: block;
-    background: #121212;
-    width: 1200px;
-    color: white;
-    font-weight: 600;
-    font-size: 9px;
-    text-align: center;
-    justify-content: center;
-}
-
 footer {
-    display: block;
     background: #121212;
     width: 1200px;
     color: white;
@@ -215,7 +190,6 @@ footer {
     font-size: 9px;
     text-align: center;
     justify-content: center;
-    padding: 10px;
 }
 */
 /******************************************
@@ -249,17 +223,4 @@ footer {
     color: white;
     text-align: center;
 }
-
-.quote blockquote {
-    padding: 100px; /*You choose the values that look best */
- }
-
-a {
-    display: inline-block;
-    background-color: #f9e42e;
-    color: #121212;
-    width: 250px;
-    height: 50px;
-    border-radius: 5px;
-    padding: inherit;
-}
+    
