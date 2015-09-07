@@ -45,6 +45,32 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+.center-content {
+    text-align: center;
+    margin: auto;
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 800px;    
+}
+
+.get-it {
+    display: inline-block;
+    height: 60px;
+    width: 300px;
+    text-decoration: none;
+    background-color: #f9e42e;
+    color: #033048;
+    border-radius: 5px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
 body {
     color: #121212;
     font-size: 12px;
@@ -52,6 +78,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
+    width: 100%;
+    height: 600px;
     background-color: #033048;
 }
 
@@ -64,82 +92,147 @@ body {
 #container {
     width: 100%;
     margin: auto;
-    height: 500px;
+    height: 675px;
     justify-content: center;
 }
 
 h1 {
     display: inline-block;
-    padding: 50px;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: white;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 54px;
+    margin-top: 0px;
 }
 
 h2 {
     color: white;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 44px;
     text-align: center;
 }
 
 h3 {
     color: #121212;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 48px;
 }
 
 h4 {
     display: inline-block;
-    padding: 50px;
     color: #f9e42e;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 48px;
+}
+
+h5 {
+    color: white;
+    font-weight: 600;    
+    font-size: 40px;
+    margin: auto;
+}
+
+p {
+    color: #121212;
+    font-size: 30px;
+    font-weight: 300;
+    width: 700px;
+}
+
+.quote p {
+    color: white;
+    font-size: 36px;
+    margin-top: 0px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    width: 600px;
 }
 
 .quote {
+    height: 394px;
+    width: 100%
     color: white;
     text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    background: url(../images/testimonial_bg.jpg) no-repeat center top;
+    background-size: cover;
 }
 
-header {
-
-}
-
-ol {
+ul {
     margin-left: 75px;
+    width: 550px;
     font: light;
-    color: 121212;
+    color: #121212;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .sign-up {
+    display: inline-block;
+    height: 140px;
+    width: 100%;
     background: #f9e42e;
     color: white;
-    text-align: center;
     font-weight: 800;
-    font-size: 12px;
+    font-size: 24px;
     border: 5px;
+    padding: 40px;
+}
+
+.sign-up-button {
+    display: inline-block;
+    height: 60px;
+    width: 300px;
+    text-decoration: none;
+    background-color: #033048;
+    color: white;
+    border-radius: 5px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .benifits {
     background-size: cover;
     background-color: #f0efef;
-    padding: 50px;
+    padding: 100px;
 }
 
 dark blue {
     background-color: #033048;
 }
 
+nav {
+    text-align: center;
+    height: 60px;
+    width: 300px;
+    text-decoration: none;
+    background-color: #033048;
+    color: white;
+    border-radius: 5px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 600;
+}
 
 footer {
     background: #121212;
     color: white;
+    height: 300px;
     font-weight: 600;
     font-size: 9px;
     text-align: center;
 }
 
+footer img {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
